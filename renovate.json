@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "config:js-app",
+    ":semanticCommits",
+    ":semanticCommitScopeDisabled",
+    ":automergeMinor"
+  ],
+  "dependencyDashboard": true,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "postUpdateOptions": ["npmDedupe"]
+}
