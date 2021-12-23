@@ -30,7 +30,7 @@
   }
 
   onMount(async () => {
-    const response = await fetch(`/routes/${route.stravaSegmentId!}.json`);
+    const response = await fetch(`./routes/${route.stravaSegmentId!}.json`);
     const latlng = await response.json();
     L.polyline(latlng, { color: "#fc6719" }).addTo(map);
 
