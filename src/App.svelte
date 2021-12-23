@@ -2,7 +2,7 @@
   import Game from "./Game/index.svelte";
 </script>
 
-<div class="flex flex-col gap-4 w-3/4 mx-auto p-10">
+<div class="flex flex-col gap-4 w-full max-w-screen-md mx-auto px-2 py-10">
   <header>
     <h1 class="text-6xl text-center">Zwift Quiz</h1>
   </header>

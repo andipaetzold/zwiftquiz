@@ -27,7 +27,7 @@
   }
 </script>
 
-<div class="flex flex-col gap-4 w-3/4 mx-auto">
+<div class="flex flex-col gap-4 w-full mx-auto">
   {#each shuffledRoutes as route}
     <button
       type="button"
