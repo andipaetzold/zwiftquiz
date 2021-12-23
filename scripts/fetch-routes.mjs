@@ -18,7 +18,7 @@ await Promise.all(
     .map((route) => fetchSegment(route))
 );
 
-async function fetchSegment({ name, slug, stravaSegmentId }) {
+async function fetchSegment({ name, stravaSegmentId }) {
   const response = await fetch(
     `https://www.strava.com/stream/segments/${stravaSegmentId}?streams%5B%5D=latlng`
   );
@@ -35,7 +35,7 @@ async function fetchSegment({ name, slug, stravaSegmentId }) {
     mkdirSync(routeDir, { recursive: true });
   }
 
-  writeFileSync(`${routeDir}/${slug}.json`, JSON.stringify(stravaData.latlng));
+  writeFileSync(`${routeDir}/${stravaSegmentId}.json`, JSON.stringify(stravaData.latlng));
 
   console.log(name);
 }

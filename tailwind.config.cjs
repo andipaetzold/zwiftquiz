@@ -1,11 +1,4 @@
-const config = {
+module.exports = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
-
-  theme: {
-    extend: {},
-  },
-
-  plugins: [],
+  important: true,
 };
-
-module.exports = config;
