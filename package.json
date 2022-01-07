@@ -16,7 +16,7 @@
     "@tsconfig/svelte": "3.0.0",
     "@types/leaflet": "1.7.8",
     "@types/lodash": "4.14.178",
-    "autoprefixer": "10.4.1",
+    "autoprefixer": "10.4.2",
     "node-fetch": "3.1.0",
     "rollup": "2.63.0",
     "rollup-plugin-css-only": "3.1.0",
