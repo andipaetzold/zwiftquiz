@@ -34,6 +34,6 @@
     "array-shuffle": "3.0.0",
     "leaflet": "1.7.1",
     "sirv-cli": "2.0.1",
-    "zwift-data": "1.12.0"
+    "zwift-data": "1.12.1"
   }
 }
