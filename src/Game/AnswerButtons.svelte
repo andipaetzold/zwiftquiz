@@ -2,7 +2,7 @@
   import arrayShuffle from "array-shuffle";
   import { createEventDispatcher } from "svelte";
   import type { Route } from "zwift-data";
-  import { getRandomRoute } from "../util/random-route";
+  import { getAnswers } from "../util/random-route";
 
   export let correctRoute: Route;
   export let selectedRoute: Route | undefined;
@@ -11,14 +11,7 @@
 
   const dispatch = createEventDispatcher();
 
-  const routes = [correctRoute];
-  while (routes.length < 4) {
-    const newRoute = getRandomRoute();
-    if (routes.includes(newRoute)) {
-      continue;
-    }
-    routes.push(newRoute);
-  }
+  const routes = getAnswers(correctRoute);
 
   $: shuffledRoutes = arrayShuffle(routes);
 
