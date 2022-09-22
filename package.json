@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "array-shuffle": "3.0.0",
-    "leaflet": "1.8.0",
+    "leaflet": "1.9.0",
     "sirv-cli": "2.0.2",
     "zwift-data": "1.18.0"
   }
