@@ -15,7 +15,7 @@
     "@rollup/plugin-typescript": "8.5.0",
     "@tsconfig/svelte": "3.0.0",
     "@types/leaflet": "1.8.0",
-    "@types/lodash": "4.14.185",
+    "@types/lodash": "4.14.186",
     "autoprefixer": "10.4.12",
     "node-fetch": "3.2.10",
     "rollup": "2.79.1",
