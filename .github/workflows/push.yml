@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
       - name: Use node
-        uses: actions/setup-node@v4.0.3
+        uses: actions/setup-node@v4.0.4
         with:
           cache: "npm"
           node-version-file: ".nvmrc"
