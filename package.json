@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "25.0.8",
-    "@rollup/plugin-node-resolve": "15.2.3",
+    "@rollup/plugin-node-resolve": "15.2.4",
     "@rollup/plugin-typescript": "11.1.6",
     "@tsconfig/svelte": "5.0.4",
     "@types/leaflet": "1.9.12",
